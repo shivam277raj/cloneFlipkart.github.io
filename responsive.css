@@ -1,0 +1,46 @@
+@media screen and (max-width: 1000px){ 
+    nav
+    {
+        flex-direction: column;
+    }
+    .slider
+    {
+        margin: 0 auto;
+        padding: 28px;
+        align-content: center;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+
+    }
+    .slider img {
+        width: 80vw;
+        height: 35vh;
+      }
+    .logo
+    {
+        justify-content: center;
+        margin: 12px 0;
+    }
+    nav ul 
+    {
+        justify-content: center;
+    }
+    .card-item img
+    {
+        width:140px;
+    }
+    .search
+    {
+        justify-content: center;
+    }
+    .search input
+    {
+        margin: 18px 0 19px 34px;
+    }
+    nav ul 
+    {
+        height: 34px;
+    }
+
+}
